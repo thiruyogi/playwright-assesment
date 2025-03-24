@@ -38,9 +38,9 @@ def setup(playwright, request):
     config_data['browser_name'] = browser_name
 
     if browser_name.lower() == 'chrome':
-        browser = playwright.chromium.launch(headless=False)
+        browser = playwright.chromium.launch()
     else:
-        browser = playwright.firefox.launch(headless=False)
+        browser = playwright.firefox.launch()
 
     context = browser.new_context()
     page = context.new_page()
