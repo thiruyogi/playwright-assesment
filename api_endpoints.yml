@@ -1,0 +1,4 @@
+accounts:
+  service_proxy: "/parabank/services_proxy/bank"
+  transactions: "/accounts/{account_id}/transactions/amount/{amount}?timeout={timeout}"
+  account_details: "/accounts/{account_id}/details"

@@ -1,0 +1,3 @@
+base_url: "https://parabank.parasoft.com"
+browser_name: "chrome"
+timeout: 30000
