@@ -30,7 +30,7 @@ def setup(playwright, request):
     config_file = request.config.getoption("--config")
     # Load configuration
     config_data = load_config(config_file)
-    pdb.set_trace()
+
     # Override base_url if passed from command line
     browser_name = request.config.getoption('browser_name') or config_data['browser_name']
     url = request.config.getoption('url_name') or config_data['base_url']
