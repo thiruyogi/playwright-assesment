@@ -54,5 +54,6 @@ def setup(playwright, request):
     request.cls.request_context = request_context
     request.cls.base_url = url
     yield
+    request_context.dispose()
     context.close()
     browser.close()
