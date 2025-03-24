@@ -36,8 +36,8 @@
     4. HTML report will created and stored in the reports folder.
 
 ## Key Highlights:
-    1. This suite can be run in all the browsers that are supported by playwright. Add "--browser-name <browser>" to pytest command.
-    2. Tests are driver from yml config files. By default local.yml will be considered. Add "--config <filename.yml> with pytest command to select a different yml file.
+    1. This suite can be run in all the browsers that are supported by playwright. Add "--browser_name <browser>" to pytest command.
+    2. Tests are driven from yml config files. By default, local.yml will be considered. Add "--config <filename.yml> with pytest command to select a different yml file.
     3. base_url and browser_name can be passed from the command line as well. Values passed in the command line will be given preference.
     4. A light-weight HTML report is integrated which can used for communicating the results.
     5. Playwright tracer is on for failed test cases to help in debugging.
@@ -48,3 +48,17 @@
 
 ## Sample Execution Result:
 <img width="1512" alt="image" src="https://github.com/user-attachments/assets/9ac42240-d86f-436c-9dd7-a46549bb7688" />
+
+## Jenkins Integration
+### Job Configuration
+<img width="1512" alt="image" src="https://github.com/user-attachments/assets/38d7a81b-7f6e-41fb-9e22-dfde20fea621" />
+
+<img width="1507" alt="image" src="https://github.com/user-attachments/assets/131574c9-15d7-432a-9bfa-cfa04b9422d4" />
+
+
+### Parameters
+<img width="1512" alt="image" src="https://github.com/user-attachments/assets/02adeaf2-1be4-44cf-93bd-b3e42bdb4d1c" />
+
+### Console Output
+<img width="1498" alt="image" src="https://github.com/user-attachments/assets/382106ce-f31d-482b-8d70-82af318f24f4" />
+
